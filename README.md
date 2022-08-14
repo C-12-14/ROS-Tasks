@@ -39,22 +39,26 @@ rosbag record -a
 
 ## Adding noise to velocity and publishing it in to new topic
 
-Open 4 separate terminal windows and source the proper setup file
+Open 5 separate terminal windows and source the proper setup file
 ```bash
 source Task2/devel/setup.bash # or source Task2/devel/setup.zsh
 ```
 - Terminal 1: run `roscore`
-
 - Terminal 2
+```bash
+rosrun add_noise add_noise.py
+```
+
+- Terminal 3
 ```bash
 cd Task2/bagfiles
 rosbag play <bagfile>
 ```
-- Terminal 3 (shows actual velocity)
+- Terminal 4 (shows actual velocity)
 ```bash
 rostopic echo /cmd_vel
 ```
-- Terminal 4 (shows velocity with added noise)
+- Terminal 5 (shows velocity with added noise)
 
 ```bash
 rostopic echo /noised_vel

@@ -1,3 +1,38 @@
+# Task 1
+- Create a ros package with `catkin_create_pkg package_name [depend1] [depend2] ...`
+- Write all the node files in `src` folder
+- Source the right workspace
+- Run `roscore` before running the nodes
+- Run the nodes with
+```bash
+rosrun task1 publisher_node.cpp
+rosrun task2 subscriber_node.cpp   # in a different terminal window
+```
+- Make sure to run `catkin_make` or `catkin build` while being in the `catkin_ws` folder which should contain the `src` folder
+
+## Problems faced
+- Not sourcing the right workspace after `catkin_make` or `catkin build`
+- Not running `roscore` before starting the nodes
+
+# Task 2
+- To see the contents of a \*bag file, we need to subscribe to the topics that were recorded by it
+- Used the `np.random.normal` method for creating random data
+- Run the `add_noise` with 
+```bash
+rosrun add_noise add_noise.py
+```
+
+## Problems faced
+- Not sourcing the right workspace
+- Not setting the turtlebot model. Do it by running 
+```bash
+export TURTLEBOT3_MODEL=<model_name>   # waffle, burger, waffle-pi
+```
+- Running `catkin_make` or `catkin build` with wrong file structure of the package
+
+---
+
+
 # Course 1
 
 ## Ros Master
