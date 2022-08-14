@@ -1,8 +1,8 @@
-# Install script for directory: /home/agv/Task1/src/task1
+# Install script for directory: /home/agv/ROS-Tasks/Task1/src/task1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/agv/Task1/install")
+  set(CMAKE_INSTALL_PREFIX "/home/agv/ROS-Tasks/Task1/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/agv/Task1/build/task1/catkin_generated/installspace/task1.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/agv/ROS-Tasks/Task1/build/task1/catkin_generated/installspace/task1.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/task1/cmake" TYPE FILE FILES
-    "/home/agv/Task1/build/task1/catkin_generated/installspace/task1Config.cmake"
-    "/home/agv/Task1/build/task1/catkin_generated/installspace/task1Config-version.cmake"
+    "/home/agv/ROS-Tasks/Task1/build/task1/catkin_generated/installspace/task1Config.cmake"
+    "/home/agv/ROS-Tasks/Task1/build/task1/catkin_generated/installspace/task1Config-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/task1" TYPE FILE FILES "/home/agv/Task1/src/task1/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/task1" TYPE FILE FILES "/home/agv/ROS-Tasks/Task1/src/task1/package.xml")
 endif()
 

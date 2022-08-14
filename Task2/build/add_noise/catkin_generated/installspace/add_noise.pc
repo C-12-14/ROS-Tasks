@@ -1,0 +1,8 @@
+prefix=/home/agv/ROS-Tasks/Task2/install
+
+Name: add_noise
+Description: Description of add_noise
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

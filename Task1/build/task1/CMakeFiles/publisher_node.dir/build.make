@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agv/Task1/src
+CMAKE_SOURCE_DIR = /home/agv/ROS-Tasks/Task1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/agv/Task1/build
+CMAKE_BINARY_DIR = /home/agv/ROS-Tasks/Task1/build
 
 # Include any dependencies generated for this target.
 include task1/CMakeFiles/publisher_node.dir/depend.make
@@ -58,17 +58,17 @@ include task1/CMakeFiles/publisher_node.dir/progress.make
 include task1/CMakeFiles/publisher_node.dir/flags.make
 
 task1/CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o: task1/CMakeFiles/publisher_node.dir/flags.make
-task1/CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o: /home/agv/Task1/src/task1/src/publisher_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agv/Task1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object task1/CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o"
-	cd /home/agv/Task1/build/task1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o -c /home/agv/Task1/src/task1/src/publisher_node.cpp
+task1/CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o: /home/agv/ROS-Tasks/Task1/src/task1/src/publisher_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agv/ROS-Tasks/Task1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object task1/CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o"
+	cd /home/agv/ROS-Tasks/Task1/build/task1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o -c /home/agv/ROS-Tasks/Task1/src/task1/src/publisher_node.cpp
 
 task1/CMakeFiles/publisher_node.dir/src/publisher_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/publisher_node.dir/src/publisher_node.cpp.i"
-	cd /home/agv/Task1/build/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agv/Task1/src/task1/src/publisher_node.cpp > CMakeFiles/publisher_node.dir/src/publisher_node.cpp.i
+	cd /home/agv/ROS-Tasks/Task1/build/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agv/ROS-Tasks/Task1/src/task1/src/publisher_node.cpp > CMakeFiles/publisher_node.dir/src/publisher_node.cpp.i
 
 task1/CMakeFiles/publisher_node.dir/src/publisher_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/publisher_node.dir/src/publisher_node.cpp.s"
-	cd /home/agv/Task1/build/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agv/Task1/src/task1/src/publisher_node.cpp -o CMakeFiles/publisher_node.dir/src/publisher_node.cpp.s
+	cd /home/agv/ROS-Tasks/Task1/build/task1 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agv/ROS-Tasks/Task1/src/task1/src/publisher_node.cpp -o CMakeFiles/publisher_node.dir/src/publisher_node.cpp.s
 
 # Object files for target publisher_node
 publisher_node_OBJECTS = \
@@ -77,39 +77,39 @@ publisher_node_OBJECTS = \
 # External object files for target publisher_node
 publisher_node_EXTERNAL_OBJECTS =
 
-/home/agv/Task1/devel/lib/task1/publisher_node: task1/CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o
-/home/agv/Task1/devel/lib/task1/publisher_node: task1/CMakeFiles/publisher_node.dir/build.make
-/home/agv/Task1/devel/lib/task1/publisher_node: /opt/ros/noetic/lib/libroscpp.so
-/home/agv/Task1/devel/lib/task1/publisher_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/agv/Task1/devel/lib/task1/publisher_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/agv/Task1/devel/lib/task1/publisher_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/agv/Task1/devel/lib/task1/publisher_node: /opt/ros/noetic/lib/librosconsole.so
-/home/agv/Task1/devel/lib/task1/publisher_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/agv/Task1/devel/lib/task1/publisher_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/agv/Task1/devel/lib/task1/publisher_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/agv/Task1/devel/lib/task1/publisher_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/agv/Task1/devel/lib/task1/publisher_node: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/agv/Task1/devel/lib/task1/publisher_node: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/agv/Task1/devel/lib/task1/publisher_node: /opt/ros/noetic/lib/librostime.so
-/home/agv/Task1/devel/lib/task1/publisher_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/agv/Task1/devel/lib/task1/publisher_node: /opt/ros/noetic/lib/libcpp_common.so
-/home/agv/Task1/devel/lib/task1/publisher_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/agv/Task1/devel/lib/task1/publisher_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/agv/Task1/devel/lib/task1/publisher_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/agv/Task1/devel/lib/task1/publisher_node: task1/CMakeFiles/publisher_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/agv/Task1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/agv/Task1/devel/lib/task1/publisher_node"
-	cd /home/agv/Task1/build/task1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/publisher_node.dir/link.txt --verbose=$(VERBOSE)
+/home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node: task1/CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o
+/home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node: task1/CMakeFiles/publisher_node.dir/build.make
+/home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node: /opt/ros/noetic/lib/libroscpp.so
+/home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node: /opt/ros/noetic/lib/librosconsole.so
+/home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node: /opt/ros/noetic/lib/librostime.so
+/home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node: /opt/ros/noetic/lib/libcpp_common.so
+/home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node: task1/CMakeFiles/publisher_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/agv/ROS-Tasks/Task1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node"
+	cd /home/agv/ROS-Tasks/Task1/build/task1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/publisher_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-task1/CMakeFiles/publisher_node.dir/build: /home/agv/Task1/devel/lib/task1/publisher_node
+task1/CMakeFiles/publisher_node.dir/build: /home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node
 
 .PHONY : task1/CMakeFiles/publisher_node.dir/build
 
 task1/CMakeFiles/publisher_node.dir/clean:
-	cd /home/agv/Task1/build/task1 && $(CMAKE_COMMAND) -P CMakeFiles/publisher_node.dir/cmake_clean.cmake
+	cd /home/agv/ROS-Tasks/Task1/build/task1 && $(CMAKE_COMMAND) -P CMakeFiles/publisher_node.dir/cmake_clean.cmake
 .PHONY : task1/CMakeFiles/publisher_node.dir/clean
 
 task1/CMakeFiles/publisher_node.dir/depend:
-	cd /home/agv/Task1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agv/Task1/src /home/agv/Task1/src/task1 /home/agv/Task1/build /home/agv/Task1/build/task1 /home/agv/Task1/build/task1/CMakeFiles/publisher_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/agv/ROS-Tasks/Task1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agv/ROS-Tasks/Task1/src /home/agv/ROS-Tasks/Task1/src/task1 /home/agv/ROS-Tasks/Task1/build /home/agv/ROS-Tasks/Task1/build/task1 /home/agv/ROS-Tasks/Task1/build/task1/CMakeFiles/publisher_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : task1/CMakeFiles/publisher_node.dir/depend
 

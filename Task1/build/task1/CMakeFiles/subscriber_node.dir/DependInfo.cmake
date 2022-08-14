@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/agv/Task1/src/task1/src/subscriber_node.cpp" "/home/agv/Task1/build/task1/CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o"
+  "/home/agv/ROS-Tasks/Task1/src/task1/src/subscriber_node.cpp" "/home/agv/ROS-Tasks/Task1/build/task1/CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

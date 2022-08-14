@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/agv/Task1/src/task1/src/subscriber_node.cpp
+/home/agv/ROS-Tasks/Task1/src/task1/src/subscriber_node.cpp
 ros/ros.h
-/home/agv/Task1/src/task1/src/ros/ros.h
+/home/agv/ROS-Tasks/Task1/src/task1/src/ros/ros.h
 std_msgs/String.h
-/home/agv/Task1/src/task1/src/std_msgs/String.h
+/home/agv/ROS-Tasks/Task1/src/task1/src/std_msgs/String.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h

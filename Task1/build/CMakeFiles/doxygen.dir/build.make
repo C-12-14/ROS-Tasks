@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agv/Task1/src
+CMAKE_SOURCE_DIR = /home/agv/ROS-Tasks/Task1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/agv/Task1/build
+CMAKE_BINARY_DIR = /home/agv/ROS-Tasks/Task1/build
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/agv/Task1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agv/Task1/src /home/agv/Task1/src /home/agv/Task1/build /home/agv/Task1/build /home/agv/Task1/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/agv/ROS-Tasks/Task1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agv/ROS-Tasks/Task1/src /home/agv/ROS-Tasks/Task1/src /home/agv/ROS-Tasks/Task1/build /home/agv/ROS-Tasks/Task1/build /home/agv/ROS-Tasks/Task1/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

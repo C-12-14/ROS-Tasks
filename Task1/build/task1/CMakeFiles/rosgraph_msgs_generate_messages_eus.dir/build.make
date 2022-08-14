@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agv/Task1/src
+CMAKE_SOURCE_DIR = /home/agv/ROS-Tasks/Task1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/agv/Task1/build
+CMAKE_BINARY_DIR = /home/agv/ROS-Tasks/Task1/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ task1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build: rosgraph_msgs_ge
 .PHONY : task1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 
 task1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
-	cd /home/agv/Task1/build/task1 && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/agv/ROS-Tasks/Task1/build/task1 && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : task1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 
 task1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend:
-	cd /home/agv/Task1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agv/Task1/src /home/agv/Task1/src/task1 /home/agv/Task1/build /home/agv/Task1/build/task1 /home/agv/Task1/build/task1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/agv/ROS-Tasks/Task1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/agv/ROS-Tasks/Task1/src /home/agv/ROS-Tasks/Task1/src/task1 /home/agv/ROS-Tasks/Task1/build /home/agv/ROS-Tasks/Task1/build/task1 /home/agv/ROS-Tasks/Task1/build/task1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : task1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
 

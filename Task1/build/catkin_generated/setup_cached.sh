@@ -7,9 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH='/home/agv/Task1/devel:/home/agv/Workspaces/smb_ws/devel:/opt/ros/noetic'
-export LD_LIBRARY_PATH='/home/agv/Task1/devel/lib:/home/agv/Workspaces/smb_ws/devel/lib:/opt/ros/noetic/lib'
-export PKG_CONFIG_PATH="/home/agv/Task1/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/agv/Task1/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/agv/Task1/devel/share/common-lisp:/home/agv/Workspaces/smb_ws/devel/share/common-lisp'
-export ROS_PACKAGE_PATH='/home/agv/Task1/src:/home/agv/Workspaces/smb_ws/src/smb_common/smb_control:/home/agv/Workspaces/smb_ws/src/smb_common/smb_description:/home/agv/Workspaces/smb_ws/src/smb_common/smb_gazebo:/home/agv/Workspaces/smb_ws/src/teleop_twist_keyboard:/opt/ros/noetic/share'
+export CMAKE_PREFIX_PATH="/home/agv/ROS-Tasks/Task1/devel:$CMAKE_PREFIX_PATH"
+export PWD='/home/agv/ROS-Tasks/Task1/build'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/agv/ROS-Tasks/Task1/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/agv/ROS-Tasks/Task1/src:$ROS_PACKAGE_PATH"

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/agv/Task1/devel/lib/task1/publisher_node"
-  "/home/agv/Task1/devel/lib/task1/publisher_node.pdb"
+  "/home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node"
+  "/home/agv/ROS-Tasks/Task1/devel/lib/task1/publisher_node.pdb"
   "CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o"
 )
 
